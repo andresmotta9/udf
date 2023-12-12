@@ -1,0 +1,18 @@
+.side-nav-item {
+  border-radius: 16px;
+  color: inherit;
+  padding: 8px 16px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.side-nav-item.active,
+.side-bar__list-item:hover{
+  background-color: #262254;
+  color: #fff;
+  font-weight: 600;
+}
+
+.side-bar__list-item {
+  margin: 4px 0;
+}
